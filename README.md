@@ -112,6 +112,8 @@ Returns commit history
 Lists changes between the working dir and the staging.
 ### 1.7 Repository link
 
+https://github.com/gdelong4/lab03-exercises
+
 ### 1.8 Comparing approaches
 
 In your own words:
