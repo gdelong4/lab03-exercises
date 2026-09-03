@@ -119,8 +119,12 @@ https://github.com/gdelong4/lab03-exercises
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+By compairing each to see if anything changed
 - How does the set-based approach check for a duplicate?
+By using the data structure and direct refrencing
 - What is the runtime and memory trade-off of each?
+1.O(n^2) time and O(1) space
+2.O(1) time and O(n) space
 
 ### 1.9 Pull request merge options
 
