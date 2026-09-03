@@ -99,12 +99,17 @@ The get status of 1.5 differs from 1.2 in that 1.5 says that the README file is 
 In one or two sentences each, what does each command do?
 
 - `git init`
+It creates an empty local repo
 - `git status`
+Tells you the current directory and staging.
 - `git add`
+Moves changes from working dir to git staging.
 - `git commit`
+Makes a save point on the local dir of changes.
 - `git log`
+Returns commit history
 - `git diff`
-
+Lists changes between the working dir and the staging.
 ### 1.7 Repository link
 
 ### 1.8 Comparing approaches
