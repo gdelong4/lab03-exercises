@@ -130,6 +130,9 @@ By using the data structure and direct refrencing
 
 In your own words, what does each GitHub merge option do?
 
-- Create a merge commit
+- Create a merge commit 
+integrates changes from branch to feature branch
 - Squash and merge
+Combines multiple commits and merges into a target main branch
 - Rebase and merge
+Moves feature branch commits to the top of main branch before merging
