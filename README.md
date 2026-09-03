@@ -1,4 +1,6 @@
 # Lab 03: Git and GitHub
+This repository documents my practice with 
+local Git, GitHub, branches, and pull requests.
 
 ## README Responses
 
@@ -27,15 +29,70 @@ nothing added to commit but untracked files present (use "git add" to track)...
 
 ### 1.3 After the first commit
 
-
+```
+git status
+...On branch main
+nothing to commit, working tree clean...
+```
 
 ### 1.4 git log
+
+```
+git log --oneline
+...ca8c82c (HEAD -> main) Create lab README...
+```
 
 ### 1.5 git diff
 
 Paste the `git status` and `git diff` commands and their output.
 
+```
+git status
+...On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")...
+```
+
+```
+git diff
+...diff --git a/README.md b/README.md
+index 7e8e5d5..44c06ba 100644
+--- a/README.md
++++ b/README.md
+@@ -1,4 +1,6 @@
+ # Lab 03: Git and GitHub
++This repository documents my practice with ^M
++local Git, GitHub, branches, and pull requests.^M
+
+ ## README Responses
+
+@@ -27,12 +29,26 @@ nothing added to commit but untracked files present (use "git add" to track)...
+
+ ### 1.3 After the first commit
+
+-
++```^M
++git status^M
++...On branch main^M
++nothing to commit, working tree clean...^M
++```^M
+
+ ### 1.4 git log
+
++```^M
++git log --oneline^M
++...ca8c82c (HEAD -> main) Create lab README...^M
++```^M
++^M
+:...
+```
+
 How does this `git status` differ from the one in **1.2**?
+The get status of 1.5 differs from 1.2 in that 1.5 says that the README file is unstaged for a commit whereas in 1.2 it was untracked.
 
 ### 1.6 Git command reflections
 
